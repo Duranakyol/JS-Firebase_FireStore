@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireStore</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="myButton" id="signupButton">Sign up</button>
+    <button class="myButton" id="signout">Sign Out</button>
+
+    <div id="divFruit">
+      <span class="spanFruit">Fruits Add</span>
+      <form class="myForm" id="add">
+        <input type="text" placeholder="Name" id="name" />
+        <input type="text" placeholder="Color" id="color" />
+        <input type="text" placeholder="Emoji" id="emoji" />
+        <input type="submit" class="myButton" value="Add" />
+      </form>
+
+      <span class="spanFruit">Delete Fruit</span>
+      <form class="myForm" id="delete">
+        <input type="text" placeholder="Enter id" id="id" />
+        <input type="submit" class="myButton" value="Delete" />
+      </form>
+
+      <span class="spanFruit">Update Fruits</span>
+      <form class="myForm" id="update">
+        <input type="text" placeholder="Doc id" id="id" />
+        <input type="text" placeholder="Name" id="name" />
+        <input type="text" placeholder="Color" id="color" />
+        <input type="text" placeholder="Emoji" id="emoji" />
+        <input type="submit" class="myButton" value="Update" />
+      </form>
+    </div>
+
+    <div id="divAuth">
+      <span class="spanAuth">Sign up</span>
+      <form class="myForm" id="signup">
+        <input type="text" id="email" placeholder="Enter your email" />
+        <input type="text" id="password" placeholder="Enter your password" />
+        <input type="submit" class="myButton" value="Sign up" />
+      </form>
+
+      <span class="spanAuth">Sign In</span>
+      <form class="myForm" id="signin">
+        <input type="text" id="email" placeholder="Enter your email" />
+        <input type="text" id="password" placeholder="Enter your password" />
+        <input type="submit" class="myButton" value="Sign In" />
+      </form>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
